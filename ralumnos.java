@@ -56,6 +56,8 @@ public class ralumnos extends javax.swing.JFrame {
     public void rmaterias(){
         materias rm = new materias();
         
+        System.out.println("Hello world");
+        
         rm.setVisible(true);
         this.setVisible(false);
     }
